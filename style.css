@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+.navbar p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+}
+.navbar ul {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.title-text {
+  text-align: center;
+}
+
+#about {
+  background-color: beige;
+  height: 300px;
+  border: 1px solid black;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px;
+}
+
+#work {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+#resume {
+  margin: 10px;
+}
+
+#resume h2 {
+  border-bottom: double rgb(255, 0, 230) 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: white;
+}
+
+#resume {
+  padding: 50px;
+  background-color: pink;
+  border-radius: 30px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+input {
+  padding: 20px;
+  border: none;
+  border-bottom: solid rgb(255, 0, 225) 2px;
+}
+
+textarea {
+  border: none;
+  border-bottom: solid rgb(255, 0, 225) 2px;
+}
+
+button {
+  max-width: 150px;
+  padding: 1rem;
+  background-color: white;
+  border: solid pink 1px;
+  margin-bottom: 10px;
+  border-radius: 40px;
+}
