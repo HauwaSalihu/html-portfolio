@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hauwa's Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
   </head>
   <body>
     <!-- this is the page header -->
@@ -23,15 +27,24 @@
       <!-- ends here -->
     </header>
     <main>
-      <h1 class="title-text">HAUWA'S PORTFOLIO SITE</h1>
       <!-- about section -->
       <section id="about">
-        <h2>Who is Hauwa ?</h2>
+        <div id="toggle-div">
+          <h2>Who is Hauwa ?</h2>
+          <span class="material-symbols-outlined"> toggle_on </span>
+        </div>
 
         <p>
           Hauwa is a student at gomycode. She is enrrolled in the software
           developer bootcamp program.
         </p>
+
+        <div id="social-icons">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
       </section>
       <!-- ends here -->
 
@@ -43,6 +56,7 @@
             Hauwa works's with aberdeen commercial. watch the video below to
             know more about Aberdeen commercial
           </p>
+          <button>MEET THE TEAM</button>
         </div>
         <iframe
           width="560"
@@ -58,9 +72,8 @@
       <!-- ends here -->
 
       <!-- resume section -->
+      <h2>Hauwa's resume</h2>
       <section id="resume">
-        <h2>Hauwa's resume</h2>
-
         <ul>
           <li>Compiled the Ampelius customer report for Nigerian companies</li>
           <li>
@@ -77,8 +90,10 @@
       <!-- contact section -->
       <section id="contact">
         <form>
-          <label for="name">full name</label>
-          <input type="text" name="name" id="name" placeholder="full name" />
+          <span>
+            <label for="name">full name</label>
+            <input type="text" name="name" id="name" placeholder="full name" />
+          </span>
           <br />
           <br />
           <textarea
@@ -97,8 +112,12 @@
     </main>
     <!-- footer section -->
     <footer>
-      <p>copyright @2024</p>
+      <p>&copy; 2024 My Portfolio</p>
     </footer>
     <!-- ends here -->
+    <script
+      src="https://kit.fontawesome.com/3bb03cee7b.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
